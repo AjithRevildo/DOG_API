@@ -20,7 +20,7 @@ const storage = document.createElement("div");
 dogs.forEach((breed) => {
       const breedcontainer = document.createElement("div");
       breedcontainer.className = "container";
-      breedcontainer.innerHTML = ` <h1>Dog</h1>
+      breedcontainer.innerHTML = ` <h1>Dog information</h1>
       <div><h3>Dog Name  :  ${breed.name}</h3></div><br>
       <div><h3>Breed-Group  :  ${breed.breed_group}</h3></div><br>
       <div><h3>Life-Span  :   ${breed.life_span}</h3></div><br>
